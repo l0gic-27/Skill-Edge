@@ -94,3 +94,74 @@ Detects 100+ technical skills including:
 ---
 
 ## 📂 Project Structure
+src/
+│
+├── components/
+│ ├── UploadSection
+│ ├── ResultsDisplay
+│ ├── SkillsAnalysis
+│ ├── ScoreCircle
+│ └── InterviewQuestions
+│
+├── utils/
+│ ├── pdfParser.js
+│ ├── skillDetector.js
+│ ├── resumeScorer.js
+│ └── groqAPI.js
+│
+└── App.jsx
+
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+##bash
+
+git clone https://github.com/yourusername/skill-edge.git
+
+
+- Install Dependencies
+npm install
+
+- Start Development Server
+npm run dev
+
+- Application will run on:
+
+http://localhost:5173
+
+
+## 🔄 Workflow
+
+> Upload Resume PDF  
+> Extract Resume Text  
+> Preprocess Text  
+> Detect Skills  
+> Classify Domain  
+> Calculate Resume Score  
+> Calculate Job Match Score  
+> Identify Skill Gaps  
+> Generate AI Interview Questions  
+> Display Results Dashboard  
+
+## 🎯 Key Benefits
+
+✅ ATS-friendly resume analysis
+✅ Personalized career guidance
+✅ Skill gap identification
+✅ Faster interview preparation
+✅ No user login required
+
+👨‍💻 Authors
+B. Sujatha
+Chowdari Nooka Naveenth
+Kolli Yeshwanth Venkat Kumar
+Davala Sudharsan Naidu
+Killi Tarun
+
+
+
+
+
